@@ -1,0 +1,13 @@
+.Header_Container{
+    
+    border: 2px solid rgb(255, 162, 0);
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    margin: 0;
+    color: rgba(107, 105, 105, 0.714);
+}
+p{
+    color:rgba(107, 105, 105, 0.714) ;
+}

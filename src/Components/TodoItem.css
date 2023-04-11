@@ -1,0 +1,20 @@
+.TodoItem_Container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 30px;
+    margin: 3px;
+    background-color: rgb(198, 195, 195);
+}
+.input_part{
+    display: flex;
+    gap: 20px;
+}
+.edit_part{
+    display: flex;
+    gap: 40px;
+}
+.show-edit{
+    display: none;
+}

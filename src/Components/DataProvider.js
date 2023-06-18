@@ -9,9 +9,11 @@ const DataProvider = ({ children }) => {
     const addItems = (item) => {
       setItems([
         ...items,
+          
         {
           id: idGen(),
           item: item,
+          complete:status  
         },
       ]);
     };

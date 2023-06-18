@@ -30,7 +30,7 @@ const DataProvider = ({ children }) => {
     };
   
     return (
-      <MyContext.Provider value={{ items, addItems, isCompleted, deleteItem, updateItem }}>
+      <MyContext.Provider value={{ items, addItems, deleteItem, updateItem }}>
         {children}
       </MyContext.Provider>
     );

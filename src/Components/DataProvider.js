@@ -13,7 +13,7 @@ const DataProvider = ({ children }) => {
         {
           id: idGen(),
           item: item,
-          status:complete  
+           
         },
       ]);
     };

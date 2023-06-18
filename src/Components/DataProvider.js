@@ -12,13 +12,8 @@ const DataProvider = ({ children }) => {
         {
           id: idGen(),
           item: item,
-          complete: false,
         },
       ]);
-    };
-  
-    const isCompleted = (id, status) => {
-      setItems(items.map((t) => (t.id === id ? { ...t, complete: status } : t)));
     };
   
     const updateItem = (id, data) => {
